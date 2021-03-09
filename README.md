@@ -1,2 +1,14 @@
 # py2to3
-Goal of this repo is to convert exploit-db python2 scripts to python3
+
+> led | 10th March, 2021
+
+___
+
+The purpose of this repo is to convert python2 exploits and scripts to python as the support for python2 has dropped.
+
+## Table of contents
+- [CVE-2020-25213](###CVE-2020-25213)
+
+### CVE-2020-25213
+The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote attackers to upload and execute arbitrary PHP code because it renames an unsafe example elFinder connector file to have the .php extension.
+Script for the CVE is [CVE-2020-25213](CVE-2020-25213.py)
